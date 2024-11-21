@@ -17,7 +17,6 @@ defaults:
 jobs:
   release:
     runs-on: ubuntu-20.04
-    if: github.repository == 'argoproj-labs/argocd-ephemeral-access'
     name: Release
     steps:
       - name: Checkout
